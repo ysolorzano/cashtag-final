@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <title>CA$HTAG</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+      <div id="header">
+        <section id="intro">
+          <img src="img/logo.png">
+          <h1>The instagram content collector<br>
+            that helps you find those <b>money shots</b></h1>
+        </section>
+        <section id="moneyshot">
+          <p>mon·ey shot: "a crucial or climactic moment, especially of a movie."</p>
+        </section>
+      </div>
+
+      <div id="inputs">
+        <div class="inputsection">
+          <h2>Ha$htag</h2>
+            <input id="tag_name" name="tag" type="search" placeholder="#searchit">
+        </div>
+        <div class="inputsection">
+          <h2>Start Date</h2>
+            <input id="start_date" type="date" placeholder="DD-MM-YYYY">
+        </div>
+        <div class="inputsection">
+          <h2>End Date</h2>
+            <input id="end_date" type="date" placeholder="DD-MM-YYYY">
+        </div>
+
+        <input type="button" class="submit" onclick="searchItUp();" value="Show me the money!">
+      </div>
+
+            <div id="results">
+        <ul class="feed"></ul>
+        <button class="loadmore">Load More!</button>
+      </div>
+  </body>
+</html>

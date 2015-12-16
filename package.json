@@ -1,0 +1,16 @@
+{
+  "name": "cashtag",
+  "version": "1.0.0",
+  "description": "This is a photo application made with Instagram and to be used as a demonstration for Pixlee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ysolorzano",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "instagram-node": "^0.5.8"
+  }
+}
